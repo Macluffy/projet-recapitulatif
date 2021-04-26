@@ -1,0 +1,189 @@
+header{
+    position: relative;
+    nav{
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.281);
+        button{
+            color: white;
+            span{
+                margin-right: 12px;
+            }
+            width: 100px;
+        }
+        
+        .un{
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            .ulun{ 
+                
+                margin:0;
+                height:70px;
+                img{
+                    
+                    height: 100px;
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    margin-bottom: 30px;
+                    
+                    
+                }
+                li{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-bottom: solid 1px white;
+                    border-top: solid 1px white;
+                    a{
+                        text-align: center;
+                        color: white;
+                        
+                    }
+                }
+                li:hover{
+                    background-color: rgb(197, 47, 79);
+                }
+                color: white;
+                list-style: none;
+                width: 40%;
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
+    .titre{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        
+        
+        z-index: 2;
+
+        h1{
+            color: white;
+            margin-bottom: 40px;
+            
+            span:nth-of-type(2){
+                color:rgb(197, 47, 79);
+            }
+            
+            font-family: 'Courgette', cursive;
+
+        }
+        .button1{
+            background-color: white;
+            border:none;
+            border-radius: 20px;
+            height: 40px;
+            width:200px;
+            font-size: 100%;
+            
+        }
+        .button2{
+            background-color:rgb(197, 47, 79);
+            border:none;
+            border-radius: 20px;
+            height: 40px;
+            color: white;
+            margin-left: 30px;
+            width: 150px;
+            font-size: 100%;
+        }
+    }
+    .carrousell{
+        .carousel-indicators{
+            li{
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                margin:5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                div{
+                    height: 15px;
+                    width: 15px;
+                    border-radius: 50%;
+                    
+                }
+                
+            }
+            li:hover{
+                height: 20px;
+                width: 20px;
+                div{
+                    
+                    border:solid 3px black;
+                }
+                
+                
+            }
+            
+        }
+        
+        .opacité{
+            img{
+                filter: brightness(30%);
+            }
+        }
+    
+    }
+}
+@media (max-width:991px){
+    nav{
+        height: 300px;
+    }
+}
+@media (min-width:992px){
+    nav{
+        height: 200px;
+    }
+}
+@media (max-width:792px){ 
+    .titre{
+        h1{
+            display:none;
+        }
+        button{
+            display: none;
+        }
+        
+    }
+}
+@media (min-width:793px) and ( max-width:1125px){
+    .titre{
+        width: 100%;
+        bottom: 10%;
+    }
+}
+@media (min-width:1126px){
+    .titre{
+        left:31%;
+        width: 40%;
+        top:30%;
+        h1{
+            font-size: 300%;
+            margin-bottom: 40px;
+            span:first-of-type{
+                font-size: 160%;
+            }
+            span:nth-of-type(2){
+                font-size: 160%;
+                color:rgb(197, 47, 79);
+            }
+            span:nth-of-type(3){
+                font-size: 160%;
+            }
+            span:nth-of-type(4){
+                font-size: 160%;
+            }
+        }
+    }
+}
