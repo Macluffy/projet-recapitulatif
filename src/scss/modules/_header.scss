@@ -99,6 +99,7 @@ header{
     }
     .carrousell{
         .carousel-indicators{
+            margin-bottom:10px;
             li{
                 height: 15px;
                 width: 15px;
@@ -134,6 +135,14 @@ header{
             }
         }
     
+    }
+    .imagebottom{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-image: url(../images/bottom_decoration_img.png);
+        height: 15px;
+
     }
 }
 @media (max-width:991px){

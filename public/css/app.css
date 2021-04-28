@@ -10015,6 +10015,9 @@ header .titre .button2 {
   width: 150px;
   font-size: 100%;
 }
+header .carrousell .carousel-indicators {
+  margin-bottom: 10px;
+}
 header .carrousell .carousel-indicators li {
   height: 15px;
   width: 15px;
@@ -10038,6 +10041,13 @@ header .carrousell .carousel-indicators li:hover div {
 }
 header .carrousell .opacité img {
   filter: brightness(30%);
+}
+header .imagebottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url(../images/bottom_decoration_img.png);
+  height: 15px;
 }
 
 @media (max-width: 991px) {
@@ -10088,6 +10098,286 @@ header .carrousell .opacité img {
     font-size: 160%;
   }
 }
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .firstsection {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.section1 .firstsection .img1 {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section1 .firstsection .img2 {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.section1 .firstsection .img3 {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.section1 .firstsection .img4 {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.section1 .firstsection .sousfirstsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.section1 .firstsection .sousfirstsection h1 {
+  font-family: "Courgette", cursive;
+}
+.section1 .firstsection .sousfirstsection h1 span {
+  font-size: 60px;
+  color: #c52f4f;
+}
+.section1 .soussecondsection {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.section1 .soussecondsection .sdiv1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #b6b6b6;
+  border-right: 1px solid #b6b6b6;
+}
+.section1 .soussecondsection .sdiv1 p {
+  font-size: 25px;
+  font-family: "Courgette", cursive;
+  margin-top: 5px;
+  color: black;
+}
+.section1 .soussecondsection .sdiv1 i {
+  font-size: 70px;
+  color: #bebebe;
+}
+.section1 .soussecondsection .sdiv11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #b6b6b6;
+  height: 129.26px;
+}
+.section1 .soussecondsection .sdiv1:focus {
+  border-right: 5px solid #c52f4f;
+}
+.section1 .soussecondsection .sdiv1:focus i {
+  color: #4b212a;
+}
+.section1 .soussecondsection .parent {
+  width: 80%;
+  display: flex;
+}
+.section1 .soussecondsection .parent .div2 {
+  width: 50%;
+}
+.section1 .soussecondsection .parent .div2 .div22 {
+  height: 128px;
+}
+.section1 .soussecondsection .parent .div2 .div22 .div2-1 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .soussecondsection .parent .div2 .div22 .div2-1 img {
+  border-radius: 50%;
+  width: 100px;
+}
+.section1 .soussecondsection .parent .div2 .div22 .div2-2 {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section1 .soussecondsection .parent .div2 .div22 .div2-2 p:first-of-type {
+  font-weight: bold;
+}
+.section1 .soussecondsection .parent .div2 .div22 .div2-2 .plast {
+  margin-top: 10px;
+}
+.section1 .soussecondsection .parent .div2 .div22 .div2-2 p {
+  margin-bottom: 0;
+}
+.section1 .soussecondsection .parent .div2 .div22 .div2-3 {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .soussecondsection .parent .div2 .div22 .div2-3 p {
+  color: #c52f4f;
+  font-size: 20px;
+}
+.section1 .soussecondsection .parent .div3 {
+  width: 50%;
+}
+.section1 .soussecondsection .parent .div3 .div22 {
+  height: 128px;
+}
+.section1 .soussecondsection .parent .div3 .div22 .div2-1 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .soussecondsection .parent .div3 .div22 .div2-1 img {
+  border-radius: 50%;
+  width: 100px;
+}
+.section1 .soussecondsection .parent .div3 .div22 .div2-2 {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section1 .soussecondsection .parent .div3 .div22 .div2-2 p:first-of-type {
+  font-weight: bold;
+}
+.section1 .soussecondsection .parent .div3 .div22 .div2-2 .plast {
+  margin-top: 10px;
+}
+.section1 .soussecondsection .parent .div3 .div22 .div2-2 p {
+  margin-bottom: 0;
+}
+.section1 .soussecondsection .parent .div3 .div22 .div2-3 {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .soussecondsection .parent .div3 .div22 .div2-3 p {
+  color: #c52f4f;
+  font-size: 20px;
+}
+
+.section2 {
+  background-image: url(../images/book_table_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+.section2 .h1section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+.section2 .h1section2 h1 {
+  color: white;
+  font-family: "Courgette", cursive;
+}
+.section2 .h1section2 h1 span {
+  color: #c52f4f;
+  font-size: 60px;
+}
+.section2 .div2section2 img {
+  border-bottom: white solid 1px;
+}
+.section2 .div2section2 p {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.section2 .div2section2 p:hover::before {
+  content: "je suis cuisto";
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(197, 47, 80, 0.664);
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  border-radius: 5px;
+  left: 0;
+}
+
+.section3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.section3 .firstsection {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.section3 .firstsection .imgun {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section3 .firstsection .imgdeux {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.section3 .firstsection .imgtrois {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.section3 .firstsection .imgquatre {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.section3 .firstsection .sousfirstsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.section3 .firstsection .sousfirstsection h1 {
+  font-family: "Courgette", cursive;
+}
+.section3 .firstsection .sousfirstsection h1 span {
+  font-size: 60px;
+  color: #c52f4f;
+}
+
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

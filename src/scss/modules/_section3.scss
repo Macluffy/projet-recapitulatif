@@ -1,0 +1,56 @@
+.section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    .firstsection{
+        width: 80%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position:relative ;
+        .imgun{
+            width: 150px;
+            position: absolute;
+            top:0;
+            left: 0;
+        }
+        .imgdeux{
+            width: 150px;
+            position: absolute;
+            top:0;
+            right: 0;
+        }
+        .imgtrois{
+            width: 150px;
+            position: absolute;
+            bottom:0;
+            left:0;
+        }
+        .imgquatre{
+            width: 150px;
+            position: absolute;
+            bottom:0;
+            right:0;
+        }
+        .sousfirstsection{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin:auto;
+            text-align: center;
+            h1{
+            font-family: 'Courgette', cursive;
+            
+            span{
+                font-size: 60px;
+                color: rgb(197, 47, 79);
+            }
+            }
+        }
+        }
+    }
