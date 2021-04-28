@@ -1,0 +1,77 @@
+footer{
+    background-image: url(../images/team_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // height: 350px;
+    width: 100%;
+    .imgbottom{
+        background-image: url(../images/footer_bottom_decoration_img.png);
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 15px;
+        
+        
+    }
+    .divfooter{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        color: white;
+            .enterdiv{
+                margin-right: 4%;
+                i{
+                    font-size: 30px;
+                    margin-right: 7%;
+                    margin-top: 15px;
+                }
+                button{
+                    background-color: rgb(197, 47, 79);
+                    height: 35px;
+                    width: max-content;
+                    padding-left:12px;
+                    padding-right: 12px;
+                    border: white 1px solid;
+                    border-radius: 20px;
+                    color: white;
+                    margin-right: 3%;
+                    margin-bottom: 3%;
+                }
+                .petitimg{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    .parti1{
+                        display: flex;
+                        margin-bottom: 15px;
+                        flex-wrap: wrap;
+                        img{
+                            margin-right: 3%;
+                        }
+                        
+                    }
+                    .parti2{
+                        display: flex;
+                        flex-wrap: wrap;
+                        img{
+                            margin-right: 3%;
+                        }
+                        
+                    }
+                }
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+            color: white;
+            flex-wrap: wrap;
+        }
+        
+    }
+    .bgrose{
+        background-color: rgb(197, 47, 79);
+        height: 100px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+

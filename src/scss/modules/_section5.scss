@@ -1,0 +1,55 @@
+.section5{
+    .sousfirstsection5{
+        h1{
+            font-family: 'Courgette', cursive;
+            margin:130px;
+            text-align: center;
+            
+            span{
+                font-size: 60px;
+                color: rgb(197, 47, 79);
+            }
+            }
+    }
+    .rose{
+        background-color:rgb(197, 47, 79) ;
+        width: 35%;
+        border-radius: 15px;
+        margin: auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        .iconn{
+            width: 95%;
+            border-bottom: white solid 1px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            margin: 15px;
+            p{
+                text-align: center;
+            }
+            i{
+                font-size: 55px;
+                margin: 5px;
+            }
+        }
+        .iconn1{
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+            
+            i{
+                font-size: 40px;
+            }
+        }
+    }
+}

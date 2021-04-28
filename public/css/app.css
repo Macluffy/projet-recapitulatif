@@ -10072,6 +10072,9 @@ header .imagebottom {
   .titre {
     width: 100%;
     bottom: 10%;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-bottom: 10%;
   }
 }
 @media (min-width: 1126px) {
@@ -10105,7 +10108,6 @@ header .imagebottom {
   align-items: center;
 }
 .section1 .firstsection {
-  width: 80%;
   height: 85%;
   display: flex;
   flex-direction: column;
@@ -10153,7 +10155,8 @@ header .imagebottom {
   color: #c52f4f;
 }
 .section1 .soussecondsection {
-  width: 80%;
+  width: 90%;
+  height: auto;
   margin: auto;
   margin-bottom: 200px;
 }
@@ -10172,7 +10175,7 @@ header .imagebottom {
   color: black;
 }
 .section1 .soussecondsection .sdiv1 i {
-  font-size: 70px;
+  font-size: 300%;
   color: #bebebe;
 }
 .section1 .soussecondsection .sdiv11 {
@@ -10187,17 +10190,17 @@ header .imagebottom {
   border-right: 5px solid #c52f4f;
 }
 .section1 .soussecondsection .sdiv1:focus i {
-  color: #4b212a;
+  color: #c52f4f;
 }
 .section1 .soussecondsection .parent {
-  width: 80%;
   display: flex;
 }
 .section1 .soussecondsection .parent .div2 {
-  width: 50%;
+  width: auto;
 }
 .section1 .soussecondsection .parent .div2 .div22 {
-  height: 128px;
+  height: auto;
+  margin-bottom: 15px;
 }
 .section1 .soussecondsection .parent .div2 .div22 .div2-1 {
   width: 30%;
@@ -10207,7 +10210,7 @@ header .imagebottom {
 }
 .section1 .soussecondsection .parent .div2 .div22 .div2-1 img {
   border-radius: 50%;
-  width: 100px;
+  width: 60%;
 }
 .section1 .soussecondsection .parent .div2 .div22 .div2-2 {
   width: 60%;
@@ -10232,13 +10235,14 @@ header .imagebottom {
 }
 .section1 .soussecondsection .parent .div2 .div22 .div2-3 p {
   color: #c52f4f;
-  font-size: 20px;
+  font-size: 100%;
 }
 .section1 .soussecondsection .parent .div3 {
-  width: 50%;
+  width: auto;
 }
 .section1 .soussecondsection .parent .div3 .div22 {
-  height: 128px;
+  height: auto;
+  margin-bottom: 15px;
 }
 .section1 .soussecondsection .parent .div3 .div22 .div2-1 {
   width: 30%;
@@ -10248,7 +10252,7 @@ header .imagebottom {
 }
 .section1 .soussecondsection .parent .div3 .div22 .div2-1 img {
   border-radius: 50%;
-  width: 100px;
+  width: 60%;
 }
 .section1 .soussecondsection .parent .div3 .div22 .div2-2 {
   width: 60%;
@@ -10273,15 +10277,37 @@ header .imagebottom {
 }
 .section1 .soussecondsection .parent .div3 .div22 .div2-3 p {
   color: #c52f4f;
-  font-size: 20px;
+  font-size: 100%;
 }
 
+@media (max-width: 1230px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (min-width: 1231px) {
+  .parent {
+    display: flex;
+    width: auto;
+  }
+}
+@media (max-width: 712px) {
+  .firstsection {
+    width: 100%;
+  }
+}
+@media (min-width: 713px) {
+  .firstsection {
+    width: 80%;
+  }
+}
 .section2 {
   background-image: url(../images/book_table_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
   width: 100%;
 }
 .section2 .h1section2 {
@@ -10298,6 +10324,9 @@ header .imagebottom {
 .section2 .h1section2 h1 span {
   color: #c52f4f;
   font-size: 60px;
+}
+.section2 .div2section2 {
+  flex-wrap: wrap;
 }
 .section2 .div2section2 img {
   border-bottom: white solid 1px;
@@ -10327,7 +10356,6 @@ header .imagebottom {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
 }
 .section3 .firstsection {
   width: 80%;
@@ -10335,6 +10363,7 @@ header .imagebottom {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: relative;
 }
 .section3 .firstsection .imgun {
@@ -10372,10 +10401,326 @@ header .imagebottom {
 }
 .section3 .firstsection .sousfirstsection h1 {
   font-family: "Courgette", cursive;
+  margin: 130px;
 }
 .section3 .firstsection .sousfirstsection h1 span {
   font-size: 60px;
   color: #c52f4f;
+}
+.section3 .firstsection .divbg {
+  background-image: url(../images/book_table_bg.jpg);
+  height: 564px;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .firstsection .divbg .numero {
+  height: 20%;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .firstsection .divbg .numero p {
+  color: #b4b4b4;
+}
+.section3 .firstsection .divbg .numero p span {
+  color: white;
+  font-size: 23px;
+}
+.section3 .firstsection .divbg .entername {
+  height: 60%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section3 .firstsection .divbg .entername .lupin {
+  width: 40%;
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+  color: #4e4e4e;
+}
+.section3 .firstsection .divbg .entername .lupin:focus {
+  outline: 0;
+}
+.section3 .firstsection .divbg .buttonn {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .firstsection .divbg .buttonn .button3 {
+  background-color: #c52f4f;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  color: white;
+  width: 150px;
+  font-size: 100%;
+}
+.section3 .firstsection .lastdivv h1 {
+  text-align: center;
+  font-family: "Courgette", cursive;
+  margin: 130px;
+}
+.section3 .firstsection .lastdivv h1 span {
+  font-size: 60px;
+  color: #c52f4f;
+}
+.section3 .firstsection .cart {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+.section3 .firstsection .cart .imagecart {
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .firstsection .cart .imagecart img {
+  border-radius: 15px;
+  width: 90%;
+}
+.section3 .firstsection .cart .imagecart .titrecart {
+  background-color: #c52f4f;
+  color: white;
+  max-width: max-content;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+}
+.section3 .firstsection .cart .imagecart .titrecart p {
+  margin: 0;
+}
+.section3 .firstsection .cart .imagecart .titrecart p span {
+  font-size: 23px;
+}
+.section3 .firstsection .cart .pcart {
+  width: 70%;
+  padding-top: 50px;
+}
+.section3 .firstsection .cart .pcart p:first-of-type {
+  font-weight: bold;
+}
+.section3 .firstsection .button3 {
+  background-color: #c52f4f;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  color: white;
+  width: 150px;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 750px) {
+  .numero p {
+    text-align: center;
+  }
+}
+@media (max-width: 1150px) {
+  .cart {
+    flex-direction: column;
+  }
+  .cart img {
+    width: 423px;
+    height: 246px;
+  }
+}
+.section4 {
+  background-image: url(../images/team_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section4 .h1section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+.section4 .h1section4 h1 {
+  color: white;
+  font-family: "Courgette", cursive;
+  margin-top: 70px;
+}
+.section4 .h1section4 h1 span {
+  color: #c52f4f;
+  font-size: 60px;
+}
+.section4 .w-100 .profile {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section4 .w-100 .profile .photo img {
+  border: white 3px solid;
+  border-radius: 50%;
+}
+.section4 .w-100 .profile .text {
+  border: #5a5a5a solid 1px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+  padding: 7px;
+}
+.section4 .w-100 .profile .text h5 {
+  color: white;
+}
+.section4 .w-100 .profile .text h6 {
+  color: #c52f4f;
+}
+.section4 .w-100 .profile .text p {
+  color: white;
+}
+
+.section5 .sousfirstsection5 h1 {
+  font-family: "Courgette", cursive;
+  margin: 130px;
+  text-align: center;
+}
+.section5 .sousfirstsection5 h1 span {
+  font-size: 60px;
+  color: #c52f4f;
+}
+.section5 .rose {
+  background-color: #c52f4f;
+  width: 35%;
+  border-radius: 15px;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.section5 .rose .iconn {
+  width: 95%;
+  border-bottom: white solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.section5 .rose .iconn p {
+  text-align: center;
+}
+.section5 .rose .iconn i {
+  font-size: 55px;
+  margin: 5px;
+}
+.section5 .rose .iconn1 {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.section5 .rose .iconn1 i {
+  font-size: 40px;
+}
+
+footer {
+  background-image: url(../images/team_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+footer .imgbottom {
+  background-image: url(../images/footer_bottom_decoration_img.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 15px;
+}
+footer .divfooter {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  color: white;
+}
+footer .divfooter .enterdiv {
+  margin-right: 4%;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  color: white;
+  flex-wrap: wrap;
+}
+footer .divfooter .enterdiv i {
+  font-size: 30px;
+  margin-right: 7%;
+  margin-top: 15px;
+}
+footer .divfooter .enterdiv button {
+  background-color: #c52f4f;
+  height: 35px;
+  width: max-content;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: white 1px solid;
+  border-radius: 20px;
+  color: white;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+footer .divfooter .enterdiv .petitimg {
+  display: flex;
+  flex-direction: column;
+}
+footer .divfooter .enterdiv .petitimg .parti1 {
+  display: flex;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+footer .divfooter .enterdiv .petitimg .parti1 img {
+  margin-right: 3%;
+}
+footer .divfooter .enterdiv .petitimg .parti2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .divfooter .enterdiv .petitimg .parti2 img {
+  margin-right: 3%;
+}
+footer .bgrose {
+  background-color: #c52f4f;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 0;
 }
 
 /*!
